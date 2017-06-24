@@ -1,0 +1,14 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+<div align="center"> 
+  <Font color=back size=8><H3>长院易物网</H3></Font>
+  <table  cellSpacing="1" cellPadding="1" width="660" align="center" border="0">
+   <tr valign="bottom">
+   <td><A href="regist.jsp">注册</font></A></td>
+   <td><A href="login.jsp">登录</A></td>
+   <td><A href="input.jsp">物品上传</A></td>
+   <td><A href="change.jsp">换品中心</A></td>
+   <td><A href="exit.jsp">退出</A></td>
+   <td><A href="index.jsp">主页</A></td>
+  </tr>
+</table>
+</div>

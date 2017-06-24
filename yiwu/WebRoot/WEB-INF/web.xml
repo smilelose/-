@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<web-app>
+<servlet> 
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>myservlet.control.HandleRegister</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>myservlet.control.HandleLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>InputServlet</servlet-name>
+    <servlet-class>myservlet.control.HandleInput</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>InputServlet</servlet-name>
+    <url-pattern>/InputServlet</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>     
